@@ -1,0 +1,367 @@
+@font-face {
+    font-family: MaterialIcons; /* Имя шрифта */
+    src: url(MaterialIcons-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 110px;
+    text-align: center;
+    
+}
+h2{
+    font-size: 25px;
+    color: #bbc7cd;
+    text-align: center;
+}
+.container{
+    margin: 0 80px;
+  
+}
+/* header */
+.header{
+    background-image:  linear-gradient(143deg, #1de9b6e6, #00b8d4e6), url(hfon.png);
+    width:100%;
+    height:100vh;
+    background-size: cover;
+}
+.header_inner{
+    position: relative;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    vertical-align: middle;
+    
+}
+
+.logo_text{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    line-height: 1;
+    margin-left:10px;
+}
+.menu{
+    position: relative;
+    font-size: 15px;
+    color: white;
+}
+.menu_but{
+    
+    display: inline;
+    margin-right: 55px;
+}
+
+
+.sign_up_but{
+    border: 1px solid white;
+        width: 75px;
+        height:25px;
+        color:white;
+        padding: 0 6px;
+        text-align: center;
+        padding-bottom: 6px;
+       
+}
+
+
+/* columns */
+.columns{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.col_title{
+    padding-top:170px;
+    padding-bottom:35px;
+    font-size: 55px;
+    color:white;
+    text-transform: uppercase;
+}
+ .col_text{
+     font-size: 18px;
+     color:white;
+     width: 570px;
+     padding-bottom: 40px;
+ }
+ .col_but{
+     display: inline-block;
+     font-size: 15px;
+     background-color: #061e37;
+     width: 150px;
+     height: 55px;
+     border-radius:5px;
+     color: white;
+     text-align: center;
+     line-height:55px;
+     margin-right: 30px;
+     box-shadow: 0px 5px 5px rgb(0, 0, 0, .15);
+     
+ }
+ #trybut{
+     color: #061e37;
+     background-color: white;
+     
+ }
+
+ /* WATCH */
+ .watch{
+    box-shadow: 0px 10px 20px rgb(0, 0, 0, .2);
+     border: 1px solid #061e37;
+     width: 600px;
+     height: 320px;
+     margin-top: 165px;
+     border-radius: 5px;
+     background-image: url(watch.png);
+     background-color: rgb(255,255,255,.9);
+     background-size: cover;
+    position: relative;
+    
+ }
+ .watch_overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.9);
+ }
+.watch_but{
+    background-color: #061e37;
+    border-radius:5px;
+    width: 60px;
+    height: 60px;
+   margin: 115px 270px 145px 270px;
+   position: absolute;
+   
+   
+}
+.watch_text{
+    position: absolute;
+    margin-left:245px;
+    margin-top:195px;
+    font-size:12px;
+}
+.triangle{
+    margin: 0 auto;
+    top: 25%;
+    position: relative;  
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.8em 0 .8em 1em;
+    border-color: transparent transparent transparent #fff;
+  
+    
+}
+
+/* section 1 */
+
+.section_text{
+    font-size: 15px;
+    color: #bbc7cd;
+    text-align: center;
+    padding:0 450px;
+
+}
+
+.icol_title{
+    font-size: 20px;
+    text-align: center;
+
+}
+.icolumn{
+    text-align: center;
+    width:20%;
+    margin-top: 100px;
+    
+}
+#startbut{
+    margin-top: 80px;
+    text-align: center;
+    background-color:#1de9b6;
+    margin-bottom: 100px;
+}
+
+
+
+
+/* LINE */
+.line_col{
+    height: 150px;
+    width:25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+#line_col1{
+    background-color: #80d8ff;
+}
+#line_col2{
+    background-color: #82b1ff;
+}
+#line_col3{
+    background-color: #b388ff;
+}
+#line_col4{
+    background-color: #ea80fc;
+}
+.ellipse{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 117px;
+    margin-top: 45px;
+    position: relative;
+    margin-right: 23px;
+  
+   
+}
+.ellipse img{
+   
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.line_text{
+    
+    font-size: 20px;
+    margin-top:57px;
+    line-height: 1;
+    color: white;
+    
+    
+  
+}
+.section_text{
+    margin-bottom: 50px;
+}
+/* ACCORDION */
+.tab input, .tab-content { display: none; }
+   .tab {
+    font: 0.8rem/1.2 Arial, sans-serif; /* Параметры шрифта */
+    
+    border-radius: 3px; /* Скругляем уголки */
+   
+    box-shadow: 0px 2px 5px rgb(0, 0, 0, .13);
+    
+    margin: 0 400px 20px 400px;
+   }
+   .tab-title {
+    padding: 10px; /* Поля вокруг текста */
+    display: block; /* Блочный элемент */
+    text-transform: uppercase; /* Все буквы заглавные */
+    font-weight: bold; /* Жирное начертание */
+    cursor: pointer; /* Вид курсора */
+   }
+   .tab-title::after {
+    content: '+'; /* Выводим плюс */
+    float: right; /* Размещаем по правому краю */
+   }
+   .tab-content {
+    padding: 10px 20px; /* Поля вокруг текста */
+   }
+   .tab :checked + .tab-title {
+    /*background-color: #50a2de; /* Цвет фона */
+    border-radius: 3px 3px 0 0; /* Скругляем уголки */
+    /*color: #fff; /* Цвет текста */
+   }
+   .tab :checked + .tab-title::after {
+    content: '−'; /* Выводим минус */
+   }
+   .tab :checked ~ .tab-content {
+    display: block; /* Показываем содержимое */
+   }
+  .tab-inner{
+      display: flex;
+      flex-direction: row;
+      position: relative;
+  }
+   .tab-pic{
+      
+       background-image: url(tab-pic.png) ;
+       width: 375px;
+       height: 155px;
+       margin: 24px 25px;
+   
+   }
+.tab-text{
+    margin-top: 24px;
+}
+
+
+/* CUSTOMERS */
+.form{
+    width: 600px;
+  margin: 0 auto;
+}
+.form-inner{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.form-row{
+   
+    display: flex;
+    justify-content: start;
+    position: relative;
+    
+}
+.form-field{
+    height: 50px;
+    width: 280px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.form-textarea{
+    height: 150px;
+    
+    width: 605px;
+    
+  
+ 
+}
+
+.checkbox-inner{
+    margin-top: 40px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.form-checked{
+    margin: auto 0;
+    margin-right: 10px;
+}
+.checkbox-text{
+    margin: auto 0;
+    display: inline;
+}
+.check_but{
+    margin: auto 0;
+    background-color: #1de9b6;
+    width: 50px;
+    height: 50px;
+    color: red;
+}
+.form-textarea{
+    resize: none;
+}
+.col_but #checkbut{
+margin-top: -100px;
+background-color: #1de9b6;
+}
+
+/* FOOTER */
+footer{
+    height: 300px;
+    background-color: #061e37;
+}
